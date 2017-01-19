@@ -1,0 +1,36 @@
+{
+"currentPage": {
+"displayTemplate": "landing",
+"displayName": "CANAL+ à la demande",
+"displayLogo": "http://www.canalplus-caraibes.com/var/canalplus_cos/storage/images/media/images/visuels-pages-a-la-demande/logo-canalplusald/138561325-1-fre-FR/logo-canalplusald.png",
+"BOName": "subscription-c-ald",
+"BOLayoutName": "subscription_universe_list"
+},
+"strates": [{
+	"type": "contentGrid",
+	"title": "Genres",
+	"contents": [
+		{
+			"URLImage": "http://preprod-vod.canal-overseas.com/vod-subscription-api/services/subscription-c-ald/universes/universe-emissions/image",
+			"title": "Émissions",
+			"onClick": {
+				"displayName": "Émissions",
+				"displayTemplate": "landing",
+				"URLPage": "http://preprod-vod.canal-overseas.com/vod-subscription-api/catalog/subscription-c-ald/vectors/57001/devices/x1/universes/universe-emissions"
+			}
+		},
+		{
+			"URLImage": "http://preprod-vod.canal-overseas.com/vod-subscription-api/services/subscription-c-ald/universes/universe-films/image",
+			"title": "Films",
+			"onClick": {
+				"displayName": "Films",
+				"displayTemplate": "landing",
+				"URLPage": "http://preprod-vod.canal-overseas.com/vod-subscription-api/catalog/subscription-c-ald/vectors/57001/devices/x1/universes/universe-films"
+			}
+		},
+	
+	]
+	}
+	
+]
+}
