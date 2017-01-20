@@ -1,0 +1,14 @@
+.cell {
+      background: hsl(0, 0%, 80%);
+      padding: 5px;
+      margin: 5px;
+    }
+    .cell.hover, .cell:hover {
+      background: hsl(0, 0%, 60%);
+    }
+    [data-nav-area].hover, [data-nav-area]:hover {
+      background: hsl(0, 0%, 95%);
+    }
+    .red {
+      background: red;
+    }
